@@ -66,12 +66,18 @@ body {
   border: none;
   outline: none;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
+  transition: 0.2s;
+}
+.honda-btn:hover {
+  background: #23a6f0;
+  color: #fff;
 }
 
-.hero button {
-  max-width: 11rem;
-  max-height: 3rem;
+header .honda-btn {
+  padding: 1rem 1.6rem;
+  max-width: 50%;
+  font-size: 1.2rem;
 }
 
 .honda-img-gray-scale img {
