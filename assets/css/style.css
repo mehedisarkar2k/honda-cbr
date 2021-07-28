@@ -49,13 +49,12 @@ body {
   font-size: 14px;
   position: relative;
   display: inline-block;
-  min-width: 10rem;
   margin-bottom: 2rem;
 }
 .honda-sub-heading::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -4px;
   left: 25%;
   height: 2px;
   width: 50%;
@@ -86,5 +85,23 @@ body {
 .honda-btn-transparent {
   background: transparent;
   border: 1px solid #e76f51;
+  color: #e76f51;
+  transition: 0.15s;
+}
+.honda-btn-transparent:hover {
+  background: #e76f51;
+  color: #fff;
+}
+
+.honda-footer-link {
+  color: #fff;
+  transition: 0.2s;
+}
+
+.honda-footer-link:visited {
+  color: #fff;
+}
+.honda-footer-link:hover,
+.honda-footer-link:active {
   color: #e76f51;
 }
