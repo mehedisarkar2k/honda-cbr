@@ -1,0 +1,53 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+/* css reset */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *\
+## custom css
+\* *** *** *** *** *** *** *** *** *** *** *** *** *** */
+.honda-main-bg {
+  background: #264653;
+}
+.hero {
+  min-height: 100vh;
+}
+
+.honda-black-bg {
+  background: #0b0d17;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.honda-primary-color {
+  color: #e76f51;
+}
+.honda-rating-color {
+  color: #e77c40;
+}
+
+.honda-btn {
+  background: #e76f51;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.hero button {
+  max-width: 11rem;
+  max-height: 3rem;
+}
