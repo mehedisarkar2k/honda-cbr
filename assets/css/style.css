@@ -39,6 +39,22 @@ body {
   color: #e77c40;
 }
 
+.honda-sub-heading {
+  color: #e76f51;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+}
+.honda-sub-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 25%;
+  height: 2px;
+  width: 50%;
+  background: #e76f51;
+}
+
 .honda-btn {
   background: #e76f51;
   border: none;
@@ -50,4 +66,8 @@ body {
 .hero button {
   max-width: 11rem;
   max-height: 3rem;
+}
+
+.honda-img-gray-scale img {
+  filter: grayscale(100%);
 }
