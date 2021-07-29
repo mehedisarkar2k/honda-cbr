@@ -14,9 +14,6 @@ body {
 .honda-main-bg {
   background: #264653;
 }
-.hero {
-  min-height: 100vh;
-}
 
 .honda-black-bg {
   background: #0b0d17;
@@ -80,6 +77,18 @@ header .honda-btn {
   font-size: 1.2rem;
 }
 
+.navbar-nav a.honda-btn {
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  transition: 0.15s;
+}
+a.nav-link:hover {
+  color: #e76f51 !important;
+}
+
 .honda-img-gray-scale img {
   filter: grayscale(100%);
 }
@@ -94,7 +103,8 @@ header .honda-btn {
   color: #e76f51;
   transition: 0.15s;
 }
-.honda-btn-transparent:hover {
+.honda-btn-transparent:hover,
+.honda-btn-transparent:active {
   background: #e76f51;
   color: #fff;
 }
