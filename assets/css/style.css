@@ -111,3 +111,39 @@ header .honda-btn {
 .honda-footer-link:active {
   color: #e76f51;
 }
+
+.sale {
+  position: relative;
+}
+.sale::after {
+  content: "sale!";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background: red;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  height: 30%;
+  width: 30%;
+  border-radius: 0 50% 20% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coundown {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(../images/coundown-banner.jpg) top/cover fixed no-repeat;
+  width: 100%;
+  height: 350px;
+  border-radius: 1.2rem;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.coundown img {
+  transform: scale(0.9);
+  height: 100%;
+}
